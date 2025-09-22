@@ -6,8 +6,8 @@ import json
 from urllib.parse import urlencode
 
 # Set up environment variables for Spotify authentication
-os.environ["SPOTIPY_CLIENT_ID"] = "e96c387bc46d472ca2f1ebc54863a1f2"
-os.environ["SPOTIPY_CLIENT_SECRET"] = "90aafdbd96b4414081e5b023d49729fd"
+os.environ["SPOTIPY_CLIENT_ID"] = ""
+os.environ["SPOTIPY_CLIENT_SECRET"] = ""
 os.environ["SPOTIPY_REDIRECT_URI"] = "http://127.0.0.1:8000/callback"
 
 
